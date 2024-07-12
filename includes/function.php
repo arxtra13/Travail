@@ -124,6 +124,11 @@ function show_comment()
   $query = "SELECT * FROM comments WHERE post_id = {$_GET['post']} ORDER BY comment_id DESC";
   $result = mysqli_query($connect, $query);
   while ($row = mysqli_fetch_assoc($result)) {
+    $img_query = "SELECT * FROM user_details WHERE id = '{$row['user_id']}' ";
+    $img_result = mysqli_query($connect, $img_query);
+    $img_row = mysqli_fetch_assoc($img_result);
+    if ($row['image_url'] == NULL) $image = "defaultpfp.jpg";
+    else $image = $row['image_url'];
 
     $select_user_query = "SELECT * FROM user_details WHERE id='{$row['post_user_id']}'";
     $select_user_result = mysqli_query($connect, $select_user_query);

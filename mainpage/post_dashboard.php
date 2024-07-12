@@ -26,6 +26,8 @@ else $image = $row['image_url'];
   <script src="https://kit.fontawesome.com/7dc99611d3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="post_dashboard.css">
   <title>Manage your posts</title>
+  <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+
 </head>
 
 <body>
@@ -35,6 +37,7 @@ else $image = $row['image_url'];
       <li><a href="main.php">Home</a></li>
       <li><a href="dashboard.php">Profile</a></li>
       <li><a href="post_dashboard.php">History</a></li>
+
       <li><a href="logout.php"><i class="fa-solid fa-right-from-bracket"></i></a></li>
     </ul>
   </nav>
