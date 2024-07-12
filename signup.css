@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+body {
+  background-color: #fff5ff;
+}
+.signup_container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.form-control {
+  height: 40px;
+  width: 35rem;
+  border: 3px solid #2b192e;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-size: 20px;
+  margin-top: 0.1rem;
+}
+.same {
+  width: 20rem;
+}
+.same1 {
+  width: 14rem;
+  margin-left: 5px;
+}
+.phone {
+  padding-left: 8px;
+}
+.form-label {
+  font-size: 18px;
+  color: #2b192e;
+  font-weight: 400;
+}
+.mb-3 {
+  padding-top: 0.5rem;
+}
+.btn {
+  height: 50px;
+  width: 7rem;
+  background-color: #2b192e;
+  color: #f5e8da;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: translateY(-4px);
+  background-color: #c371d2;
+}
+.button {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.heading h1 {
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+.logo {
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 0.3rem;
+  margin-top: 15vh;
+  top: 0;
+}
+.in {
+  color: #c371d2;
+}
+.one-line {
+  display: flex;
+}
+span {
+  color: red;
+}
